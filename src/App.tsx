@@ -74,7 +74,7 @@ function App(): React.JSX.Element {
         setDiceImage(DiceOne);
     }
     // Trigger haptic feedback
-    ReactNativeHapticFeedback.trigger('effectDoubleClick', options);
+    ReactNativeHapticFeedback.trigger('impactHeavy', options);
   };
 
   return (
